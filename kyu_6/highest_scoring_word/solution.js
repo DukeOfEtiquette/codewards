@@ -1,4 +1,4 @@
-function high(x){
+module.exports = (function high(x){
   let getScore = (word) => {
     return word.split('').reduce((a,c) => a + (c.charCodeAt(0)-96), 0);
   }
@@ -16,4 +16,4 @@ function high(x){
   });
 
   return arr[index];
-}
+});

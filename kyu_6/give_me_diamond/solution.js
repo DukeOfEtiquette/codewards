@@ -1,4 +1,4 @@
-function diamond(n){
+module.exports = (function diamond(n){
   if(n%2 === 0 || n < 3)
     return null;
 
@@ -17,4 +17,4 @@ function diamond(n){
   }
 
   return str;
-}
+});
