@@ -1,4 +1,4 @@
-function parse( data ){
+module.exports = (function parse( data ){
   let val = 0;
   let arr = [];
 
@@ -14,4 +14,4 @@ function parse( data ){
   })
 
   return arr;
-}
+})

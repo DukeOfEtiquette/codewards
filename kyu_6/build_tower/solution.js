@@ -1,4 +1,4 @@
-function towerBuilder(nFloors) {
+module.exports = (function towerBuilder(nFloors) {
   let baseSize = 1+(2*(nFloors-1));
   function buildFloor(i){
     let nStars = 1+(2*(i));
@@ -12,4 +12,4 @@ function towerBuilder(nFloors) {
   }
 
   return tower;
-}
+})
